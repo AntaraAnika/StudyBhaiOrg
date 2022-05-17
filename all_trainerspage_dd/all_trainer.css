@@ -1,34 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    margin: 0;
 }
 
-body,
-input {
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-color: #E5E5E5;
+html body {
+    font-family: "Poppins", sans-serif;
     color: #3A3A3A;
-}
-
-li {
-    list-style: none;
+    background-color: #e5e5e5;
 }
 
 a {
     text-decoration: none;
     color: #3A3A3A;
+
 }
 
-
-
-
-/* Navbar */
+/*=============== TOP NAVBAR ===============*/
 .navbar {
     background-color: #fff;
 }
@@ -118,19 +107,15 @@ form .search-message-button {
 
 .sidebar {
     margin-top: 25px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     background: #00c9a8;
     border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
+    width: 290px;
 }
 
 .sidebar-menu li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
+    padding: 5px 12px;
 }
 
 .down-navbar-icons {
@@ -186,9 +171,6 @@ form .content-sec .list-side img {
 form .content-sec .icon-side img {
     padding: 0.6rem;
 }
-
-
-
 
 
 

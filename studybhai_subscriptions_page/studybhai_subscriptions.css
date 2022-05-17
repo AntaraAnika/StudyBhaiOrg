@@ -139,9 +139,3 @@ form .search-message-button {
 .main-section .nav-list {
     justify-content: space-between;
 }
-
-/************ Image ************/
-.main-section .cards {
-    padding: 2rem 0;
-    width: 293px;
-}
