@@ -173,7 +173,12 @@ form .content-sec .icon-side img {
 }
 
 
+@media screen and (max-width: 600px) {
+    .main-section .btn {
+        padding: 5px 24px;
 
+    }
+}
 
 
 
