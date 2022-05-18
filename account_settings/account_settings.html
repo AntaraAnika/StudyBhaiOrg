@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Account Settings</title>
+</head>
+
+<body>
+
+    <section>
+
+        <header>
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+
+                        <!-- LOGO -->
+                        <a href="#" class="navbar-brand">
+                            <img src="./images/StudyBhai Logo 1.png" height="28" alt="Logo">
+                        </a>
+
+                        <!-- BOOTSTRAP COLLAPSE NAVBAR -->
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+
+                        <div id="navbarCollapse" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+
+                                <!-- EXPLORE -->
+                                <li class="nav-item dropdown navbar-brand">
+                                    <a href="../Study_bhail_maintenance/index.html">Explore</a>
+                                </li>
+                            </ul>
+
+                            <!-- SEARCH FORM -->
+                            <form class="form-search form-inline">
+                                <div class="p-1 search-button shadow-sm">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <button id="button-addon2" type="submit"
+                                                class="btn btn-link text-secondary"><i
+                                                    class="fa fa-search"></i></button>
+                                        </div>
+                                        <input type="search" placeholder="Search" aria-describedby="button-addon2"
+                                            class="search-text border-0 form-control ">
+                                    </div>
+                                </div>
+                            </form>
+
+                            <!-- FOR BUSINESS -->
+
+                            <ul class="nav navbar-nav ms-4">
+                                <li class="nav-item navbar-brand">
+                                    <a href="../for_business/business_page.html" class="nav-link">For Business</a>
+                                </li>
+
+                                <!-- MESSAGES -->
+                                <li class="nav-item navbar-brand dropdown">
+                                    <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                        <img src="./images/message.png" height="28" alt="messages">
+                                    </a>
+
+                                    <div class="dropdown-menu dropdown-menu-end">
+                                        <p class="text-center">Messages</p>
+                                        <hr class="messages-hr">
+
+                                        <form
+                                            class="form-search form-inline md-form form-sm ml-auto mr-auto my-2 my-lg-0 p-2">
+                                            <div class="p-1 search-message-button shadow-sm">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <button id="button-addon2" type="submit"
+                                                            class="btn btn-link text-secondary"><i
+                                                                class="fa fa-search"></i></button>
+                                                    </div>
+                                                    <input type="search" placeholder="Search in messages"
+                                                        aria-describedby="button-addon2"
+                                                        class="search-text border-0 form-control ">
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="d-flex mt-3">
+                                            <div class="p-2">
+                                                <img src="./images/icons/studybhai.png">
+                                            </div>
+                                            <div>
+                                                <div class="p-1 sender-title">StudyBhai</div>
+                                                <div class="d-flex">
+                                                    <div class="p-1">
+                                                        <p>Lorem ipsum dolor sit.</p>
+                                                    </div>
+
+                                                    <div class="ml-auto p-1">
+                                                        <p class="notification-time">5:45pm</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <div class="p-2">
+                                                <img src="./images/icons/studybhai.png">
+                                            </div>
+                                            <div>
+                                                <div class="p-1 sender-title">StudyBhai</div>
+                                                <div class="d-flex">
+                                                    <div class="p-1">
+                                                        <p>Lorem ipsum dolor sit.</p>
+                                                    </div>
+
+                                                    <div class="ml-auto p-1">
+                                                        <p class="notification-time">5:45pm</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- NOTIFICATION -->
+                                <li class="nav-item navbar-brand dropdown">
+
+                                    <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                        <img src="./images/notification.png" height="28" alt="notification">
+                                    </a>
+
+                                    <div class="dropdown-menu dropdown-menu-end">
+                                        <p class="text-center">Notifications</p>
+                                        <hr class="notification-hr">
+
+                                        <div class="d-flex">
+                                            <div class="p-2">
+                                                <p>Your password was changed</p>
+                                            </div>
+
+                                            <div class="ml-auto p-2">
+                                                <p class="notification-time">08/09/21</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <div class="p-2">
+                                                <p>Your password was changed</p>
+                                            </div>
+
+                                            <div class="ml-auto p-2">
+                                                <p class="notification-time">08/09/21</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- CART -->
+                                <li class="nav-item navbar-brand">
+                                    <a href="../my_cart/cart_page.html" class="nav-link">
+                                        <img src="./images/cart.png" height="28" alt="cart">
+                                    </a>
+                                </li>
+
+                                <!-- VERTICAL DIVIDER -->
+                                <div class="vr vr-color d-none d-lg-block"></div>
+
+                                <!-- USER IMAGE -->
+                                <li class="nav-item navbar-brand">
+                                    <a href="#" class="nav-link">
+                                        <img src="./images/user.png" height="28" alt="user">
+                                    </a>
+                                </li>
+
+                                <!-- USER DROPDOWN -->
+                                <li class="nav-item dropdown navbar-brand">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tonmoy</a>
+                                    <div class="dropdown-menu dropdown-menu-end">
+                                        <a href="../profile_page/profile_page.html"
+                                            class="dropdown-item text-center">Profile</a>
+
+                                        <div class="dropdown-divider user-profile-dropdown"></div>
+
+                                        <a href="./account_settings.html" class="dropdown-item text-center">Settings</a>
+
+                                        <div class="dropdown-divider user-profile-dropdown"></div>
+
+                                        <a href="../help_page/help_page.html" class="dropdown-item text-center">Help</a>
+
+                                        <div class="dropdown-divider user-profile-dropdown"></div>
+
+                                        <a href="#" class="dropdown-item text-center" data-bs-toggle="modal"
+                                            data-bs-target="#logoutModal">Log out</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <!-- MAIN SECTION -->
+        <main class="container">
+            <div class="row main-section">
+                <div class="col-4 p-0">
+
+                    <!-- Acoount Payment Option -->
+                    <ul class="main-list">
+                        <li><a style="color: #00C9A8;" href="./account_settings.html">Accounts</a><a href=""></a><a
+                                href=""></a></li>
+                        <li><a href="../payment_settings/payment_settings.html">Payment</a><a href=""></a><a
+                                href=""></a></li>
+                    </ul>
+                </div>
+
+                <!-- Account Settings Form -->
+                <div class="col-8 p-0">
+                    <form>
+                        <!-- Name -->
+                        <div class="d-flex flex-column form-input mb-4 ">
+                            <h3 class="text-lg-start text-sm-center">Account</h3>
+
+                            <div class="input-style d-flex justify-content-between">
+
+                                <h6 class="">Full Name</h6><input class="" type="text" name="" id="">
+                            </div>
+                            <div class="input-style d-flex justify-content-between">
+                                <h6 class="">Email</h6><input class="" type="text" name="" id="">
+                            </div>
+                            <div class="input-style d-flex justify-content-between">
+                                <h6 class="">Language</h6><input class="" type="text" name="" id="">
+                            </div>
+
+                            <div class="form-btn">
+                                <button class="btn">Save</button>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <!-- Password -->
+                        <div class="d-flex flex-column form-input mb-4">
+                            <h5 class="ps-3">Password</h5>
+                            <div class="input-style d-flex justify-content-between">
+
+                                <h6 class="">Current Password</h6><input class="" type="password" name="" id="">
+                            </div>
+                            <div class="input-style d-flex justify-content-between">
+                                <h6>New Password</h6><input type="password" name="" id="">
+                            </div>
+                            <div class="input-style d-flex justify-content-between">
+                                <h6 class="">Retype Password</h6><input class="" type="password" name="" id="">
+                            </div>
+                            <div class="form-btn">
+                                <button class="btn">Save</button>
+                            </div>
+                        </div>
+                        <hr>
+
+
+                        <!-- Sign In With Social Accounts -->
+                        <div class="linked-accounts">
+
+                            <div class="card card-style">
+
+                                <div class="card-body card-body-width">
+                                    <div class="social-title d-flex card-body-content p-1">
+                                        <img src="./images/facebook (2).png" alt="">
+                                        <h5 class="card-title mb-0">Facebook</h5>
+                                    </div>
+
+                                    <p class="card-text">Enable one-click login and receive more personalized course
+                                        recommendations.</p>
+                                    <a href="#" class="btn">Connect Facebook</a>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="card card-style">
+
+                                <div class="card-body card-body-width">
+                                    <div class="social-title d-flex p-1">
+                                        <img src="./images/Linkedin (2).png" alt="">
+                                        <h5 class="card-title mb-0">Linkedin</h5>
+                                    </div>
+
+                                    <p class="card-text">Enable one-click login and receive more personalized course
+                                        recommendations.</p>
+                                    <a href="#" class="btn">Connect Linkedin</a>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="card card-style card-body-width">
+
+                                <div class="card-body">
+                                    <div class="social-title d-flex p-1">
+                                        <img src="./images/Google.png" alt="">
+                                        <h5 class="card-title mb-0">Google</h5>
+                                    </div>
+
+                                    <p class="card-text">Enable one-click login and receive more personalized course
+                                        recommendations.</p>
+                                    <a href="#" class="btn">Connect Google</a>
+                                </div>
+                            </div>
+                            <hr>
+
+
+                            <!-- Delete Account -->
+                            <div class="card card-style mb-3">
+
+                                <div class="card-body card-body-width">
+                                    <div class="social-title d-flex">
+
+                                        <h5 class="card-title">Delete Account</h5>
+                                    </div>
+
+                                    <p class="card-text">If you delete your account, your personal information will be
+                                        wiped from Coursera's servers, all of your course activity will be anonymized
+                                        and any certificates earned will be deleted. This action cannot be undone!
+                                        Cancel any active subscriptions before you delete your account.</p>
+                                    <a href="#" class="btn">Delete Account</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+
+                </div>
+            </div>
+
+
+        </main>
+
+    </section>
+
+    <!--==================== FOOTER ====================-->
+    <section>
+        <footer class="text-white text-center text-md-start" style="background: #004A3E;">
+
+            <!-- Grid container -->
+            <div class="container p-4">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-start">
+                        <div class="d-flex mb-4">
+                            <img class="img-fluid" src="./images/StudyBhai Logo 1.png">
+                            <button class="ms-5 language-button">English</button>
+                        </div>
+
+                        <p>
+                            StudyBhai is a place where you, your team or company can develop.
+                            Identify goals, learn and track progress!
+                        </p>
+                        <p>© 2021 StudyBhai. All rights reserved.</p>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+                        <h5 style="color:#00C9A8">StudyBhai</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-decoration-none  text-white">Courses
+                            </li>
+                            <li>
+                                <a href="#!" class="text-decoration-none  text-white"> Prices</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-decoration-none text-white"> Prices</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+                        <h5 style="color:#00C9A8">About Us</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-decoration-none  text-white">Company
+                            </li>
+                            <li>
+                                <a href="#!" class="text-decoration-none  text-white"> Roadmap</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-decoration-none  text-white">Terms and conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+                        <h5 style="color:#00C9A8">Need Help?</h5>
+                        <a href="#!" class="text-decoration-none text-white">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: #3A3A3A;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+.navbar {
+    background-color: #fff;
+}
+
+nav .navbar-nav li a {
+    color: #000 !important;
+}
+
+.vr-color {
+    color: #00c9a8;
+}
+
+/* Search form */
+form .search-button {
+    width: 450px;
+    background-color: #e5e5e5;
+    color: #9f9f9f;
+    border-radius: 25px;
+}
+
+form .search-text {
+    background-color: #e5e5e5;
+    border-radius: 50px;
+}
+
+/* Messages */
+.messages-hr {
+    background-color: #00C9A8;
+}
+
+form .search-message-button {
+    background-color: #E5E5E5;
+    color: #9F9F9F;
+    border-radius: 20px;
+}
+
+.sender-title {
+    font-weight: 500;
+    font-size: 19px;
+    color: #3A3A3A;
+}
+
+/*Notifications*/
+.notification-hr {
+    background-color: #00C9A8;
+}
+
+.notification-time {
+    font-weight: 300;
+    font-size: 15px;
+    color: #9F9F9F;
+}
+
+/*User profile*/
+.user-profile-dropdown {
+    background-color: #00c9a8;
+}
+
+/*Log out modal*/
+.yes-button {
+    width: 133px;
+    height: 67px;
+    background-color: #C4C4C4;
+    border: none;
+    border-radius: 50px;
+}
+
+.no-button {
+    width: 133px;
+    height: 67px;
+    background-color: #00C9A8;
+    border: none;
+    border-radius: 50px;
+}
+
+/* navbar */
+
+
+.search-input {
+    background-color: #EDEDED;
+    border-radius: 25px;
+}
+
+.search-input input {
+    border: none;
+    border-radius: 25px;
+    background-color: #EDEDED;
+    color: #9F9F9F;
+}
+
+form .search-input i {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    color: #9F9F9F;
+}
+
+.main-section {
+    padding-top: 3rem;
+}
+
+.main-section form {
+    background-color: #fff;
+    width: 1260px;
+    max-width: 100%;
+    height: auto;
+    left: 438px;
+    top: 154px;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+}
+
+.main-section ul li a {
+    color: #3A3A3A;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.main-section .main-list {
+    line-height: 45px;
+}
+
+.main-section form .input-style {
+    padding: 1rem;
+}
+
+.main-section form .form-input {
+    width: 100%;
+    max-width: 400px;
+}
+
+.main-section form .input-style h6 {
+    padding-right: 20px;
+}
+
+.main-section form .input-style input {
+    margin-left: 0;
+    border: 1px solid #9F9F9F;
+    border-radius: 20px;
+    outline: none;
+
+}
+
+main .btn {
+    width: auto;
+    background-color: #00C9A8;
+    margin-left: 1rem;
+    margin-right: auto;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 28px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.linked-accounts {
+    margin-top: 2rem;
+}
+
+.linked-accounts .card {
+    border: none !important;
+}
+
+.linked-accounts .card-style .btn {
+    margin-left: 0;
+
+}
+
+.social-title {
+    column-gap: 5px;
+    align-items: center;
+}
+
+.linked-accounts .card-style .btn {
+    width: auto;
+    background-color: white;
+
+    margin-right: auto;
+    color: #3A3A3A;
+    border: 1px solid #00C9A8;
+    outline: none;
+    padding: 5px 28px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.social-title img {
+    height: 2rem;
+    width: 2rem
+}
+
+
+
+/* footer */
+.language-button {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid #9F9F9F;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+
+
+    Form .input-style {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .card-style {
+        max-width: 400px;
+    }
+
+    .card-body-width {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-title {
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .main-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .main-section h3,
+    .main-section h5 {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .main-section form {
+        padding: 0;
+    }
+
+    form .form-input .input-style {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    form .form-input .form-btn {
+        text-align: center;
+    }
+
+    form .form-input .input-style h6 {
+        text-align: center;
+    }
+
+    .card-style {
+        max-width: 300px;
+    }
+
+    .card-body-width {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-title {
+        justify-content: center;
+    }
+
+    .main-section form .input-style input {
+        max-width: 200px;
+    }
+
+
+}
