@@ -135,6 +135,11 @@ form .search-message-button {
     padding: 2px;
 }
 
+.main-section .sec-title {
+    border-bottom: 1px solid #00C9A8;
+    width: fit-content;
+}
+
 /******** Navigation List *******/
 .main-section .nav-list {
     justify-content: space-between;

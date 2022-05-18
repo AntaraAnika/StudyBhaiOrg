@@ -140,6 +140,27 @@ form .search-message-button {
     justify-content: space-between;
 }
 
+.main-section .sec-title {
+    border-bottom: 1px solid #00C9A8;
+    width: fit-content;
+}
+
+/******* Yearly Button ********/
+.main-section .btn {
+    width: auto;
+    background-color: #E5E5E5;
+    margin-left: 1rem;
+    margin-right: auto;
+    color: #9F9F9F;
+    border: 1px solid #9F9F9F;
+    outline: none;
+    padding: 4px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
 
 /* Data Table */
 table.dataTable {
@@ -156,7 +177,8 @@ td {
     padding-left: 10px !important;
     border: none !important;
 }
-th{
+
+th {
     background-color: #ffff;
     margin: 2rem;
 }
