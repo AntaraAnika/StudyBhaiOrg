@@ -16,9 +16,14 @@ body {
     color: #3A3A3A;
 }
 
+a{
+    text-decoration: none;
+}
+
 .main-list li {
     list-style: none;
 }
+
 
 /* navbar */
 .navbar {
