@@ -127,7 +127,6 @@ form .search-input i {
 
 .main-section form {
     background-color: #fff;
-    width: 1260px;
     max-width: 100%;
     height: auto;
     left: 438px;
@@ -153,7 +152,7 @@ form .search-input i {
 
 .main-section form .form-input {
     width: 100%;
-    max-width: 400px;
+    max-width: max-content;
 }
 
 .main-section form .input-style h6 {
@@ -165,6 +164,7 @@ form .search-input i {
     border: 1px solid #9F9F9F;
     border-radius: 20px;
     outline: none;
+    padding: 0.3rem 0.6rem;
 
 }
 
@@ -274,6 +274,11 @@ main .btn {
         padding: 0;
     }
 
+    .main-section .main-list{
+        text-align: center;
+        padding-left: 0;
+    }
+
     .main-section h3,
     .main-section h5 {
         text-align: center;
@@ -282,6 +287,10 @@ main .btn {
 
     .main-section form {
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     form .form-input .input-style {
@@ -293,6 +302,10 @@ main .btn {
 
     form .form-input .form-btn {
         text-align: center;
+    }
+
+    main .btn{
+        margin-left: 0;
     }
 
     form .form-input .input-style h6 {
